@@ -5,21 +5,18 @@
  */
 package ejemplosrecursividad;
 
-
 public class Ejemplo02 {
 
     public static void main(String[] args) {
-        imprimirNumeros(4);
+        imprimirNumeros(7);
     }
-    
-    public static void imprimirNumeros(int numero){
+
+    public static void imprimirNumeros(int numero) {
         System.out.printf("El número es: %d\n", numero);
-        if (numero>1){  // se busca una condición que se acerque al caso base
+        if (numero > 1) {  // se busca una condición que se acerque al caso base
             numero = numero - 1;
             imprimirNumeros(numero);
         }
     }
-    
-    
-    
+
 }

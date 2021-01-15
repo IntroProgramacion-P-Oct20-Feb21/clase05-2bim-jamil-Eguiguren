@@ -8,10 +8,10 @@ package ejemplosrecursividad;
 public class Ejemplo03 {
 
     public static void main(String[] args) {
-        int numero = 5;
+        int numero = 10;
         int valorFactorial = 1;
-        /*
-        for (int i = numero; i >= 1; i--) {
+        
+        /*for (int i = numero; i >= 1; i--) {
             System.out.printf("%d\n", i);
         }*/
         for (int i = numero; i >= 1; i--) {
@@ -22,6 +22,7 @@ public class Ejemplo03 {
             
         }
         System.out.printf("%d\n", valorFactorial);
+        
     }
     
 }
